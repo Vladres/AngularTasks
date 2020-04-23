@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+.container{
+    margin: 0 auto;
+    background-color: darken($color: white, $amount: 10);
+    margin-bottom: 3rem;
+    max-height: 300px;
+    max-width: 800px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    .todo{
+        background-color: red($color: #000000);
+        padding: 3rem;
+    }
+    .cardImage{
+        width: auto;
+        float: right;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .TextCard{
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,11 @@
+<div class="container border" *ngFor="let item of cards;let i = index">
+  <div class="todo">
+    <div class="row">
+      <div class="col">
+        <h1>{{item.Title}}</h1>
+        <p class="TextCard">{{item.Text}}</p>
+        <button type="button" class="btn btn-primary" (click)="clickEvent(i)">delete card</button>
+      </div>
+    </div>
+  </div>
+</div>
